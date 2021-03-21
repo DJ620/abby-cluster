@@ -1,0 +1,54 @@
+.blue-text {
+  color: #88e7dd;
+}
+
+.blue {
+  background-color: #ffe485;
+  margin-top: -9vh;
+  height: 50vh;
+  width: 100vw;
+  position: relative;
+}
+
+.blue::before {
+  content: "";
+  background-image: url("./abb-bg.jpg");
+  background-size: cover;
+  background-position: 1ch;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.45;
+}
+
+.yellow-text {
+  color: #ffe485;
+}
+
+.yellow {
+  background-color: #ffe485;
+}
+
+.orange-text {
+  position: relative;
+  color: #88e7dd;
+  font-family: "racing sans one";
+  padding-left: 5vw;
+  padding-top: 1.5vh;
+  font-size: 100px;
+}
+
+.orange {
+  background-color: #f99c77b3;
+}
+
+/* blue: #88e7dd, yellow: #ffe485, orange: #f99b77 */
+
+/*transparent textures:
+moulin
+padded
+paven
+Tileable Wood (Colored)
+Wood Pattern*/
